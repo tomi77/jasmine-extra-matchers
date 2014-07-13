@@ -1,15 +1,8 @@
-# jasmine-tools
+# jasmine-matchers
 
-A set of Jasmine tools
+A set of Jasmine matchers
 
 ## matchers
 
 * toBeInstanceOf
 * toBeInfinity
-
-## helpers
-
-* coalesce
-* date_time
-* if_has_perm
-* ifeq
