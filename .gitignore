@@ -1,0 +1,8 @@
+node_modules
+bower-components
+coverage
+
+*.log
+
+# Idea IDE
+.idea
