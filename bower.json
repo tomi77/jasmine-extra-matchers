@@ -1,0 +1,23 @@
+{
+  "name": "jasmine-extra-matchers",
+  "description": "A set of Jasmine matchers",
+  "main": "matchers.js",
+  "authors": [
+    "Tomasz Jakub Rup"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "jasmine",
+    "matcher"
+  ],
+  "homepage": "https://github.com/tomi77/jasmine-extra-matchers",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "*.",
+    "*.json"
+  ],
+  "dependencies": {
+    "jasmine": "^2.4.1"
+  }
+}
