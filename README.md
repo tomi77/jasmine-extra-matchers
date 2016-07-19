@@ -1,5 +1,7 @@
 # jasmine-extra-matchers
 
+[![Code Climate](https://codeclimate.com/github/tomi77/jasmine-extra-matchers/badges/gpa.svg)](https://codeclimate.com/github/tomi77/jasmine-extra-matchers)
+
 A set of Jasmine matchers
 
 ## Installation
