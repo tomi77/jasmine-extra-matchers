@@ -1,7 +1,7 @@
 {
   "name": "jasmine-extra-matchers",
   "description": "A set of Jasmine matchers",
-  "main": "matchers.js",
+  "main": "jasmine-extra-matchers.js",
   "authors": [
     "Tomasz Jakub Rup"
   ],

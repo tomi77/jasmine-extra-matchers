@@ -2,11 +2,11 @@
   "name": "jasmine-extra-matchers",
   "version": "1.0.0",
   "description": "A set of Jasmine matchers",
-  "main": "matchers.js",
+  "main": "jasmine-extra-matchers.js",
   "scripts": {
     "build": "npm run build-js; npm run uglify",
-    "build-js": "coffee --bare --compile --no-header --output . src/matchers.coffee",
-    "uglify": "uglifyjs matchers.js --output matchers.min.js --compress --mangle"
+    "build-js": "coffee --bare --compile --no-header --output . src/jasmine-extra-matchers.coffee",
+    "uglify": "uglifyjs jasmine-extra-matchers.js --output jasmine-extra-matchers.min.js --compress --mangle"
   },
   "repository": {
     "type": "git",
