@@ -1,0 +1,29 @@
+{
+  "name": "jasmine-extra-matchers",
+  "version": "1.0.0",
+  "description": "A set of Jasmine matchers",
+  "main": "matchers.js",
+  "scripts": {
+    "build": "npm run build-js; npm run uglify",
+    "build-js": "coffee --bare --compile --no-header --output . src/matchers.coffee",
+    "uglify": "uglifyjs matchers.js --output matchers.min.js --compress --mangle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomi77/jasmine-extra-matchers.git"
+  },
+  "keywords": [
+    "jasmine",
+    "matcher"
+  ],
+  "author": "Tomasz Jakub Rup",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomi77/jasmine-extra-matchers/issues"
+  },
+  "homepage": "https://github.com/tomi77/jasmine-extra-matchers#readme",
+  "devDependencies": {
+    "coffee-script": "^1.10.0",
+    "uglify-js": "^2.7.0"
+  }
+}
