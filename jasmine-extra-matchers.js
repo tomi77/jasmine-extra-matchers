@@ -1,6 +1,6 @@
 
 /*
-  Jasmine extra matchers 1.0.0
+  Jasmine extra matchers 0.1.0
 
   Copyright (c) 2014-2016 Tomasz Jakub Rup
 
@@ -8,19 +8,8 @@
 
   Released under the MIT license
  */
-(function(root, factory) {
-  switch (false) {
-    case !(typeof define === 'function' && define.amd):
-      define(['jasmine'], factory);
-      break;
-    case typeof exports !== 'object':
-      factory(require('jasmine'));
-      break;
-    default:
-      factory(root.jasmine);
-  }
-})(this, function(jasmine) {
-  return beforeEach(function() {
+(function(window, jasmine) {
+  beforeEach(function() {
     jasmine.addMatchers({
       toBeInstanceOf: function() {
         return {
@@ -48,4 +37,4 @@
       }
     });
   });
-});
+})(window, window.jasmine);

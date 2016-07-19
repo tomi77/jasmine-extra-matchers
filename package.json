@@ -1,6 +1,6 @@
 {
   "name": "jasmine-extra-matchers",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A set of Jasmine matchers",
   "main": "jasmine-extra-matchers.js",
   "scripts": {

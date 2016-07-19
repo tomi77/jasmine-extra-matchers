@@ -1,5 +1,5 @@
 ###
-  Jasmine extra matchers 1.0.0
+  Jasmine extra matchers 0.1.0
 
   Copyright (c) 2014-2016 Tomasz Jakub Rup
 
@@ -8,16 +8,7 @@
   Released under the MIT license
 ###
 
-((root, factory) ->
-  switch
-    when typeof define is 'function' and define.amd
-      define ['jasmine'], factory
-    when typeof exports is 'object'
-      factory require('jasmine')
-    else
-      factory root.jasmine
-  return
-) @, (jasmine) ->
+((window, jasmine) ->
   beforeEach () ->
     jasmine.addMatchers
       toBeInstanceOf: () ->
@@ -35,3 +26,5 @@
           message: if pass then "Expected #{ actual } not to be infinity" else "Expected #{ actual } to be infinity"
 
     return
+  return
+)(window, window.jasmine)
