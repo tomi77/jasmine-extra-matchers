@@ -14,10 +14,11 @@
   "ignore": [
     "node_modules",
     "bower_components",
+    "src",
     "*.",
     "*.json"
   ],
   "dependencies": {
-    "jasmine": "^2.4.1"
+    "jasmine": "^2.0.0"
   }
 }
