@@ -12,18 +12,10 @@
   beforeEach () ->
     jasmine.addMatchers
       toBeInstanceOf: () ->
-        compare: (actual, expected) ->
-          pass = actual instanceof expected
-
-          pass: pass
-          message: if pass then "Expected #{ actual } not to be instance of #{ expected }" else "Expected #{ actual } to be instance of #{ expected }"
+        compare: (actual, expected) -> pass: actual instanceof expected
 
       toBeInfinity: () ->
-        compare: (actual) ->
-          pass = actual is Infinity
-
-          pass: pass
-          message: if pass then "Expected #{ actual } not to be infinity" else "Expected #{ actual } to be infinity"
+        compare: (actual) -> pass: actual is Infinity
 
     return
   return
