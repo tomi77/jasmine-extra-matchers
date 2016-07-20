@@ -12,12 +12,6 @@ A set of Jasmine matchers
 bower install jasmine-extra-matchers
 ~~~
 
-or
-
-~~~bash
-npm install jasmine-extra-matchers
-~~~
-
 ## Matchers
 
 ### toBeInstanceOf
@@ -26,6 +20,7 @@ Checks whether a value is the instance of type
 
 ~~~js
 expect(value).toBeInstanceOf(Backbone.Model)
+expect(value).not.toBeInstanceOf(Backbone.Model)
 ~~~
 
 ### toBeInfinity
@@ -34,4 +29,5 @@ Checks whether a value is infinity
 
 ~~~js
 expect(value).toBeInfinity()
+expect(value).not.toBeInfinity()
 ~~~
