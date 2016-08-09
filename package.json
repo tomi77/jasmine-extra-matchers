@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/tomi77/jasmine-extra-matchers/issues"
   },
-  "homepage": "https://github.com/tomi77/jasmine-extra-matchers#readme",
+  "homepage": "https://github.com/tomi77/jasmine-extra-matchers",
   "devDependencies": {
     "coffee-script": "^1.10.0",
     "uglify-js": "^2.7.0"
