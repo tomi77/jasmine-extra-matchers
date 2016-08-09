@@ -8,27 +8,25 @@
 
   Released under the MIT license
  */
-(function(window, jasmine) {
-  beforeEach(function() {
-    jasmine.addMatchers({
-      toBeInstanceOf: function() {
-        return {
-          compare: function(actual, expected) {
-            return {
-              pass: actual instanceof expected
-            };
-          }
-        };
-      },
-      toBeInfinity: function() {
-        return {
-          compare: function(actual) {
-            return {
-              pass: actual === Infinity
-            };
-          }
-        };
-      }
-    });
+beforeEach(function() {
+  jasmine.addMatchers({
+    toBeInstanceOf: function() {
+      return {
+        compare: function(actual, expected) {
+          return {
+            pass: actual instanceof expected
+          };
+        }
+      };
+    },
+    toBeInfinity: function() {
+      return {
+        compare: function(actual) {
+          return {
+            pass: actual === Infinity
+          };
+        }
+      };
+    }
   });
-})(window, window.jasmine);
+});

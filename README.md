@@ -6,10 +6,35 @@
 
 A set of [Jasmine](http://jasmine.github.io/) 2.x matchers
 
-## Installation
+## Installation and usage
+
+### Bower
 
 ~~~bash
 bower install jasmine-extra-matchers
+~~~
+
+~~~html
+<script src="/bower_components/jasmine-extra-matchers/dist/jasmine-extra-matchers.js"></script>
+~~~
+
+~~~js
+it('shoult be a Backbone.Model', function() {
+    expect(value).toBeInstanceOf(Backbone.Model)
+});
+~~~
+
+###NPM
+
+~~~bash
+npm install jasmine-extra-matchers --save-dev
+~~~
+
+~~~coffeescript
+require 'jasmine-extra-matchers'
+
+it 'should be infinity', () ->
+  expect(value).toBeInfinity()
 ~~~
 
 ## Matchers

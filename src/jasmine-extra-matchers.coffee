@@ -8,15 +8,12 @@
   Released under the MIT license
 ###
 
-((window, jasmine) ->
-  beforeEach () ->
-    jasmine.addMatchers
-      toBeInstanceOf: () ->
-        compare: (actual, expected) -> pass: actual instanceof expected
+beforeEach () ->
+  jasmine.addMatchers
+    toBeInstanceOf: () ->
+      compare: (actual, expected) -> pass: actual instanceof expected
 
-      toBeInfinity: () ->
-        compare: (actual) -> pass: actual is Infinity
+    toBeInfinity: () ->
+      compare: (actual) -> pass: actual is Infinity
 
-    return
   return
-)(window, window.jasmine)
