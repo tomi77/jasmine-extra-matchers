@@ -76,6 +76,7 @@ build/Release
 # Dependency directories
 node_modules
 jspm_packages
+bower_components
 
 # Optional npm cache directory
 .npm
@@ -93,3 +94,7 @@ jspm_packages
 
 # Linux trash folder which might appear on any partition or disk
 .Trash-*
+
+.*
+bower.json
+src
