@@ -19,7 +19,7 @@ bower install jasmine-extra-matchers
 ~~~
 
 ~~~js
-it('shoult be a Backbone.Model', function() {
+it('should be a Backbone.Model', function() {
     expect(value).toBeInstanceOf(Backbone.Model)
 });
 ~~~
