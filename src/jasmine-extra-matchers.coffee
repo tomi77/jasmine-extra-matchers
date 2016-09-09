@@ -16,4 +16,7 @@ beforeEach () ->
     toBeInfinity: () ->
       compare: (actual) -> pass: actual is Infinity
 
+    hasOwnProperty: () ->
+      compare: (obj, key) -> pass: obj?.hasOwnProperty key
+
   return

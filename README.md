@@ -56,3 +56,12 @@ Checks whether a value is infinity
 expect(value).toBeInfinity()
 expect(value).not.toBeInfinity()
 ~~~
+
+### hasOwnProperty
+
+Checks whether a value has own property
+
+~~~js
+expect(value).hasOwnProperty('type')
+expect(value).not.hasOwnProperty('type')
+~~~

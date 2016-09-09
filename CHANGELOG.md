@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2
+
+### News
+
+* add `hasOwnProperty` matcher
+
 ## 0.1.1
 
 ### News

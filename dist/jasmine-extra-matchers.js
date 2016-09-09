@@ -27,6 +27,15 @@ beforeEach(function() {
           };
         }
       };
+    },
+    hasOwnProperty: function() {
+      return {
+        compare: function(actual, expected) {
+          return {
+            pass: actual.hasOwnProperty(expected)
+          };
+        }
+      };
     }
   });
 });
