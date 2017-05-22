@@ -25,7 +25,7 @@ it('should be a Backbone.Model', function() {
 });
 ~~~
 
-###NPM
+### NPM
 
 ~~~bash
 npm install jasmine-extra-matchers --save-dev
