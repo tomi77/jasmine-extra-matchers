@@ -24,6 +24,6 @@
   "homepage": "https://github.com/tomi77/jasmine-extra-matchers",
   "devDependencies": {
     "coffee-script": "^1.10.0",
-    "uglify-js": "^2.7.0"
+    "uglify-js": "^3.0.0"
   }
 }
