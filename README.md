@@ -66,3 +66,70 @@ Checks whether a value has own property
 expect(value).hasOwnProperty('type')
 expect(value).not.hasOwnProperty('type')
 ~~~
+
+### toBeEven
+
+Checks whether the value is an even number
+
+~~~js
+expect(2).toBeEven()
+expect(3).not.toBeEven()
+~~~
+
+### toBeOdd
+
+Checks whether the value is an odd number
+
+~~~js
+expect(3).toBeOdd()
+expect(2).not.toBeOdd()
+~~~
+
+### toBeNumeric
+
+Checks whether the value contains a numeric value, regardless of its type. It can be a string containing a numeric value, exponential notation, a Number object, etc.
+
+~~~js
+expect('14').toBeNumeric()
+expect('fourteen').not.toBeNumeric()
+~~~
+
+### toBeInteger
+
+Checks whether the value is a numeric integer. A numeric value can be a string containing a number, a Number object, etc.
+
+~~~js
+expect(18).toBeInteger()
+expect('18').toBeInteger()
+expect(2.5).not.toBeInteger()
+expect(-1).toBeInteger()
+~~~
+
+### toBeFloat
+
+Checks whether the value is a "float"
+
+~~~js
+expect(1.1).toBeFloat()
+expect(1).not.toBeFloat()
+expect(1.0).not.toBeFloat()
+expect('2.15').toBeFloat()
+~~~
+
+### toBePositive
+
+Checks whether the value is a positive number
+
+~~~js
+expect(21).toBePositive()
+expect(-1).not.toBePositive()
+~~~
+
+### toBeNegative
+
+Checks whether the value is a negative number
+
+~~~js
+expect(-2).toBeNegative()
+expect(5).not.toBeNegative()
+~~~

@@ -5,6 +5,13 @@
 ### News
 
 * add `hasOwnProperty` matcher
+* add `toBeEven` matcher
+* add `toBeOdd` matcher
+* add `toBeNumeric` matcher
+* add `toBeInteger` matcher
+* add `toBeFloat` matcher
+* add `toBePositive` matcher
+* add `toBeNegative` matcher
 
 ## 0.1.1
 

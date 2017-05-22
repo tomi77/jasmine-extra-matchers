@@ -19,4 +19,25 @@ beforeEach () ->
     hasOwnProperty: () ->
       compare: (obj, key) -> pass: obj?.hasOwnProperty key
 
+    toBeEven: () ->
+      compare: (actual) -> pass: actual % 2 is 0
+
+    toBeOdd: () ->
+      compare: (actual) -> pass: actual % 2 isnt 0
+
+    toBeNumeric: () ->
+      compare: (actual) -> pass: not isNaN(parseFloat(actual)) and isFinite(actual)
+
+    toBeInteger: () ->
+      compare: (actual) -> pass: not isNaN(parseFloat(actual)) and isFinite(actual) and actual % 1 is 0
+
+    toBeFloat: () ->
+      compare: (actual) -> pass: not isNaN(parseFloat(actual)) and isFinite(actual) and actual % 1 isnt 0
+
+    toBePositive: () ->
+      compare: (actual) -> pass: actual > 0
+
+    toBeNegative: () ->
+      compare: (actual) -> pass: actual < 0
+
   return
