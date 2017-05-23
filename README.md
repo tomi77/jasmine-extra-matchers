@@ -54,8 +54,8 @@ expect(value).not.toBeInstanceOf(Backbone.Model)
 Checks whether a value is infinity
 
 ~~~js
-expect(value).toBeInfinity()
-expect(value).not.toBeInfinity()
+expect(Infinity).toBeInfinity()
+expect(0).not.toBeInfinity()
 ~~~
 
 ### hasOwnProperty
