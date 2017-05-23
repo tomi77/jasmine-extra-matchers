@@ -4,8 +4,8 @@
   "description": "A set of Jasmine matchers",
   "main": "dist/jasmine-extra-matchers.js",
   "scripts": {
-    "test": "node --require coffee-script/register ./node_modules/.bin/jasmine",
-    "coveralls": "ibrik cover jasmine --default-excludes --files.include=\"src/*.coffee\" && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
+    "test": "node --require coffee-script/register ./node_modules/.bin/jasmine --config=test/support/jasmine.json",
+    "coveralls": "ibrik cover jasmine --default-excludes --files.include=\"src/*.coffee\" -- --config=test/support/jasmine.json && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
     "build": "npm run build-js; npm run uglify",
     "build-js": "coffee --bare --compile --no-header --output dist/ src/jasmine-extra-matchers.coffee",
     "uglify": "uglifyjs dist/jasmine-extra-matchers.js --output dist/jasmine-extra-matchers.min.js --compress --mangle"
