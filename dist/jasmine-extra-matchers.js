@@ -30,9 +30,72 @@ beforeEach(function() {
     },
     hasOwnProperty: function() {
       return {
-        compare: function(actual, expected) {
+        compare: function(obj, key) {
           return {
-            pass: actual.hasOwnProperty(expected)
+            pass: obj != null ? obj.hasOwnProperty(key) : void 0
+          };
+        }
+      };
+    },
+    toBeEven: function() {
+      return {
+        compare: function(actual) {
+          return {
+            pass: actual % 2 === 0
+          };
+        }
+      };
+    },
+    toBeOdd: function() {
+      return {
+        compare: function(actual) {
+          return {
+            pass: actual % 2 !== 0
+          };
+        }
+      };
+    },
+    toBeNumeric: function() {
+      return {
+        compare: function(actual) {
+          return {
+            pass: !isNaN(parseFloat(actual)) && isFinite(actual)
+          };
+        }
+      };
+    },
+    toBeInteger: function() {
+      return {
+        compare: function(actual) {
+          return {
+            pass: !isNaN(parseFloat(actual)) && isFinite(actual) && actual % 1 === 0
+          };
+        }
+      };
+    },
+    toBeFloat: function() {
+      return {
+        compare: function(actual) {
+          return {
+            pass: !isNaN(parseFloat(actual)) && isFinite(actual) && actual % 1 !== 0
+          };
+        }
+      };
+    },
+    toBePositive: function() {
+      return {
+        compare: function(actual) {
+          return {
+            pass: actual > 0
+          };
+        }
+      };
+    },
+    toBeNegative: function() {
+      return {
+        compare: function(actual) {
+          return {
+            pass: actual < 0
           };
         }
       };

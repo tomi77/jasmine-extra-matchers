@@ -1,8 +1,6 @@
 # Changelog
 
-## 0.1.2
-
-### News
+## 0.2.0
 
 * add `hasOwnProperty` matcher
 * add `toBeEven` matcher
@@ -15,13 +13,9 @@
 
 ## 0.1.1
 
-### News
-
 * Node.js version
 
 ## 0.1.0
-
-### News
 
 * add `toBeInstanceOf` matcher
 * add `toBeInfinity` matcher
