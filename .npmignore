@@ -97,4 +97,5 @@ bower_components
 
 .*
 bower.json
-src
+src/
+test/
