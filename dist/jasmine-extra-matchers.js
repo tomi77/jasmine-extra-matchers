@@ -1,6 +1,6 @@
 
 /*
-  Jasmine extra matchers 0.1.1
+  Jasmine extra matchers 0.2.1
 
   Copyright (c) 2014-2016 Tomasz Jakub Rup
 
