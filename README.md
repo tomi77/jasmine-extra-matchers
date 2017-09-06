@@ -34,11 +34,12 @@ it('should be a Backbone.Model', function() {
 npm install jasmine-extra-matchers --save-dev
 ~~~
 
-~~~coffeescript
-require 'jasmine-extra-matchers'
+~~~js
+require('jasmine-extra-matchers');
 
-it 'should be infinity', () ->
+it('should be infinity', function() {
   expect(value).toBeInfinity()
+});
 ~~~
 
 ## Matchers
