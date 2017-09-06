@@ -1,5 +1,9 @@
 # Changelog
 
+## master
+
+* move ``jasmine`` from `dependencies` to `peerDependencies`
+
 ## 0.2.0
 
 * add `hasOwnProperty` matcher

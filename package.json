@@ -25,7 +25,7 @@
     "url": "https://github.com/tomi77/jasmine-extra-matchers/issues"
   },
   "homepage": "https://github.com/tomi77/jasmine-extra-matchers",
-  "dependencies": {
+  "peerDependencies": {
     "jasmine": "^2.0.0"
   },
   "devDependencies": {

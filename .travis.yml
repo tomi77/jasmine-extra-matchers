@@ -3,5 +3,8 @@ language: node_js
 node_js:
   - "4"
 
+pre_script:
+  - npm i jasmine@"^2.0.0"
+
 script:
   - npm run coveralls
