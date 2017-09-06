@@ -1,6 +1,6 @@
 # Changelog
 
-## master
+## 0.2.1
 
 * move ``jasmine`` from `dependencies` to `peerDependencies`
 
