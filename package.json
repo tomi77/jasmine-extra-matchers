@@ -3,6 +3,7 @@
   "version": "0.2.1",
   "description": "A set of Jasmine matchers",
   "main": "dist/jasmine-extra-matchers.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "node --require coffee-script/register --require coffee-coverage/register-istanbul ./node_modules/.bin/jasmine --config=test/support/jasmine.json",
     "coverage": "npm test; istanbul report",
@@ -34,5 +35,8 @@
     "coveralls": "^2.13.1",
     "istanbul": "^0.4.5",
     "uglify-js": "^3.0.0"
+  },
+  "dependencies": {
+    "@types/jasmine": "^2.6.0"
   }
 }
