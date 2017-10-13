@@ -1,19 +1,23 @@
 # Changelog
 
+## 0.2.2
+
+* added typescript declaration file
+
 ## 0.2.1
 
 * move ``jasmine`` from `dependencies` to `peerDependencies`
 
 ## 0.2.0
 
-* add `hasOwnProperty` matcher
-* add `toBeEven` matcher
-* add `toBeOdd` matcher
-* add `toBeNumeric` matcher
-* add `toBeInteger` matcher
-* add `toBeFloat` matcher
-* add `toBePositive` matcher
-* add `toBeNegative` matcher
+* added `hasOwnProperty` matcher
+* added `toBeEven` matcher
+* added `toBeOdd` matcher
+* added `toBeNumeric` matcher
+* added `toBeInteger` matcher
+* added `toBeFloat` matcher
+* added `toBePositive` matcher
+* added `toBeNegative` matcher
 
 ## 0.1.1
 
@@ -21,6 +25,6 @@
 
 ## 0.1.0
 
-* add `toBeInstanceOf` matcher
-* add `toBeInfinity` matcher
+* added `toBeInstanceOf` matcher
+* added `toBeInfinity` matcher
 * browser version
