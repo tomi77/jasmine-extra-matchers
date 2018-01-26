@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/tomi77/jasmine-extra-matchers.svg?branch=master)](https://travis-ci.org/tomi77/jasmine-extra-matchers)
 [![Coverage Status](https://coveralls.io/repos/github/tomi77/jasmine-extra-matchers/badge.svg?branch=master)](https://coveralls.io/github/tomi77/jasmine-extra-matchers?branch=master)
 [![Code Climate](https://codeclimate.com/github/tomi77/jasmine-extra-matchers/badges/gpa.svg)](https://codeclimate.com/github/tomi77/jasmine-extra-matchers)
+[![dependencies Status](https://david-dm.org/tomi77/jasmine-extra-matchers/status.svg)](https://david-dm.org/tomi77/jasmine-extra-matchers)
 [![devDependencies Status](https://david-dm.org/tomi77/jasmine-extra-matchers/dev-status.svg)](https://david-dm.org/tomi77/jasmine-extra-matchers?type=dev)
 [![peerDependencies Status](https://david-dm.org/tomi77/jasmine-extra-matchers/peer-status.svg)](https://david-dm.org/tomi77/jasmine-extra-matchers?type=peer)
 [![Dependency Status](https://www.versioneye.com/user/projects/578ea15c88bf880039f7e576/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/578ea15c88bf880039f7e576)
