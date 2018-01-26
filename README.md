@@ -10,6 +10,23 @@
 
 A set of [Jasmine](http://jasmine.github.io/) 2.x matchers
 
+## Table of contents
+
+* [Installation and usage](#installation-of-usage)
+  * [Bower](#bower)
+  * [NPM](#npm)
+* [Matchers](#matchers)
+  * [toBeInstanceOf](#tobeinstanceof)
+  * [toBeInfinity](#tobeinfinity)
+  * [hasOwnProperty](#hasownproperty)
+  * [toBeEven](#tobeeven)
+  * [toBeOdd](#tobeodd)
+  * [toBeNumeric](#tobenumeric)
+  * [toBeInteger](#tobeinteger)
+  * [toBeFloat](#tobefloat)
+  * [toBePositive](#tobepositive)
+  * [toBeNegative](#tobenegative)
+
 ## Installation and usage
 
 ### Bower
