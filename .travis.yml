@@ -2,7 +2,7 @@ language: node_js
 
 node_js: node
 
-pre_script:
+before_script:
   - npm i jasmine@"^2.0.0"
 
 script:
