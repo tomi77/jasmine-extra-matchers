@@ -8,10 +8,6 @@
 
   Released under the MIT license
  */
-var _;
-
-_ = require('lodash');
-
 beforeEach(function() {
   jasmine.addMatchers({
     toBeInstanceOf: function() {
@@ -100,96 +96,6 @@ beforeEach(function() {
         compare: function(actual) {
           return {
             pass: actual < 0
-          };
-        }
-      };
-    },
-    toBeTrue: function() {
-      return {
-        compare: function(actual) {
-          return {
-            pass: actual === true
-          };
-        }
-      };
-    },
-    toBeFalse: function() {
-      return {
-        compare: function(actual) {
-          return {
-            pass: actual === false
-          };
-        }
-      };
-    },
-    toExists: function() {
-      return {
-        compare: function(actual) {
-          return {
-            pass: actual != null
-          };
-        }
-      };
-    },
-    toBeTypeOf: function() {
-      return {
-        compare: function(actual, expected) {
-          return {
-            pass: expected === typeof actual
-          };
-        }
-      };
-    },
-    toBeFunction: function() {
-      return {
-        compare: function(actual) {
-          return {
-            pass: _.isFunction(actual)
-          };
-        }
-      };
-    },
-    toBeObject: function() {
-      return {
-        compare: function(actual) {
-          return {
-            pass: _.isObject(actual)
-          };
-        }
-      };
-    },
-    toBeArray: function() {
-      return {
-        compare: function(actual) {
-          return {
-            pass: _.isArray(actual)
-          };
-        }
-      };
-    },
-    toBeString: function() {
-      return {
-        compare: function(actual) {
-          return {
-            pass: _.isString(actual)
-          };
-        }
-      };
-    },
-    toBeFinite: function() {
-      return {
-        compare: function(actual) {
-          return {
-            pass: _.isFinite(actual)
-          };
-        }
-      };
-    },
-    toBeBoolean: function() {
-      return {
-        compare: function(actual) {
-          return {
-            pass: _.isBoolean(actual)
           };
         }
       };
