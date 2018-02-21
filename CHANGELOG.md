@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.3
+
+* remove minified version
+
 ## 0.2.2
 
 * added typescript declaration file

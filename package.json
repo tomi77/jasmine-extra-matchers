@@ -1,16 +1,14 @@
 {
   "name": "jasmine-extra-matchers",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A set of Jasmine matchers",
-  "main": "dist/jasmine-extra-matchers.js",
+  "main": "jasmine-extra-matchers.js",
   "types": "index.d.ts",
   "scripts": {
     "test": "node --require coffee-script/register --require coffee-coverage/register-istanbul ./node_modules/.bin/jasmine --config=test/support/jasmine.json",
     "coverage": "npm test; istanbul report",
     "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls",
-    "build": "npm run build-js; npm run uglify",
-    "build-js": "coffee --bare --compile --no-header --output dist/ src/jasmine-extra-matchers.coffee",
-    "uglify": "uglifyjs dist/jasmine-extra-matchers.js --output dist/jasmine-extra-matchers.min.js --compress --mangle"
+    "build": "coffee --bare --compile --no-header --output . src/jasmine-extra-matchers.coffee"
   },
   "repository": "tomi77/jasmine-extra-matchers",
   "keywords": [
@@ -30,8 +28,7 @@
     "coffee-coverage": "^3.0.0",
     "coffee-script": "^1.10.0",
     "coveralls": "^3.0.0",
-    "istanbul": "^0.4.5",
-    "uglify-js": "^3.0.0"
+    "istanbul": "^0.4.5"
   },
   "dependencies": {
     "@types/jasmine": "^2.6.0"
