@@ -37,7 +37,7 @@ bower install jasmine-extra-matchers
 ~~~
 
 ~~~html
-<script src="/bower_components/jasmine-extra-matchers/dist/jasmine-extra-matchers.js"></script>
+<script src="/bower_components/jasmine-extra-matchers/jasmine-extra-matchers.js"></script>
 ~~~
 
 ~~~js
@@ -59,6 +59,10 @@ it('should be infinity', function() {
   expect(value).toBeInfinity()
 });
 ~~~
+
+### Karma
+
+Use [karma-jasmine-extra-matchers](https://www.npmjs.com/package/karma-jasmine-extra-matchers)
 
 ## Matchers
 
