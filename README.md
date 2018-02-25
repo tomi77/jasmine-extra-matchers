@@ -16,6 +16,7 @@ A set of [Jasmine](http://jasmine.github.io/) 2.x matchers
 * [Installation and usage](#installation-of-usage)
   * [Bower](#bower)
   * [NPM](#npm)
+  * [Karma](#karma)
 * [Matchers](#matchers)
   * [toBeInstanceOf](#tobeinstanceof)
   * [toBeInfinity](#tobeinfinity)
